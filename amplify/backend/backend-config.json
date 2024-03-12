@@ -18,7 +18,7 @@
     }
   },
   "auth": {
-    "wrightappf8550320": {
+    "wrightapp": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -31,7 +31,11 @@
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "EMAIL"
+          "EMAIL",
+          "NICKNAME",
+          "PICTURE",
+          "PROFILE",
+          "NAME"
         ],
         "socialProviders": [],
         "usernameAttributes": [

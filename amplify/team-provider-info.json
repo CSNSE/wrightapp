@@ -13,7 +13,8 @@
     },
     "categories": {
       "auth": {
-        "wrightappf8550320": {}
+        "wrightappf8550320": {},
+        "wrightapp": {}
       },
       "function": {
         "graphQlLambdaAuthorizer9855c633": {

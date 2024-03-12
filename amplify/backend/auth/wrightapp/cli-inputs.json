@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "wrightappf8550320_identitypool_f8550320",
+    "identityPoolName": "testAuthIdentityPool",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "wrightf8550320",
-    "userPoolName": "wrightappf8550320_userpool_f8550320",
+    "resourceNameTruncated": "wright80931de9",
+    "userPoolName": "wrightapp",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -20,28 +20,32 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-      "email"
+      "email",
+      "nickname",
+      "picture",
+      "profile",
+      "name"
     ],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
-    "userpoolClientWriteAttributes": [
-      "email"
-    ],
-    "userpoolClientReadAttributes": [
-      "email"
-    ],
-    "userpoolClientLambdaRole": "wrightf8550320_userpoolclient_lambda_role",
+    "userpoolClientWriteAttributes": [],
+    "userpoolClientReadAttributes": [],
+    "userpoolClientLambdaRole": "wright80931de9_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "f8550320",
-    "resourceName": "wrightappf8550320",
+    "sharedId": "80931de9",
+    "resourceName": "wrightapp",
     "authSelections": "identityPoolAndUserPool",
-    "useDefault": "default",
+    "serviceName": "Cognito",
     "usernameAttributes": [
       "email"
     ],
+    "useDefault": "manual",
+    "userPoolGroups": false,
     "userPoolGroupList": [],
-    "serviceName": "Cognito",
+    "adminQueries": false,
+    "thirdPartyAuth": false,
+    "authProviders": [],
     "usernameCaseSensitive": false,
     "useEnabledMfas": true
   }
