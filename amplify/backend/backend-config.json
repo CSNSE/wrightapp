@@ -51,5 +51,30 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
+  },
+  "parameters": {
+    "AMPLIFY_function_graphQlLambdaAuthorizer9855c633_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "graphQlLambdaAuthorizer9855c633"
+        }
+      ]
+    },
+    "AMPLIFY_function_graphQlLambdaAuthorizer9855c633_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "graphQlLambdaAuthorizer9855c633"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "veryfriendlybucket": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    }
   }
 }

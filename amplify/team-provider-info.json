@@ -16,7 +16,16 @@
         "wrightappf8550320": {}
       },
       "function": {
-        "graphQlLambdaAuthorizer9855c633": {}
+        "graphQlLambdaAuthorizer9855c633": {
+          "deploymentBucketName": "amplify-amplifyfcb06e9130334-staging-00919-deployment",
+          "s3Key": "amplify-builds/graphQlLambdaAuthorizer9855c633-73574d707a4a2f43714f-build.zip"
+        }
+      },
+      "api": {
+        "wrightapp": {}
+      },
+      "storage": {
+        "veryfriendlybucket": {}
       }
     }
   }
