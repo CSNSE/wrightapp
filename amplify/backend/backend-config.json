@@ -1,6 +1,24 @@
 {
+  "api": {
+    "wrightapp": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
   "auth": {
-    "wrightappa2d709e4": {
+    "wrightappf8550320": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -13,10 +31,7 @@
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "EMAIL",
-          "NAME",
-          "PREFERRED_USERNAME",
-          "PICTURE"
+          "EMAIL"
         ],
         "socialProviders": [],
         "usernameAttributes": [
