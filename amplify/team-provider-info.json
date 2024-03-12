@@ -15,8 +15,8 @@
       "auth": {
         "wrightappf8550320": {}
       },
-      "api": {
-        "wrightapp": {}
+      "function": {
+        "graphQlLambdaAuthorizer9855c633": {}
       }
     }
   }
