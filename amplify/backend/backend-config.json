@@ -33,9 +33,8 @@
         "signupAttributes": [
           "EMAIL",
           "NICKNAME",
-          "PICTURE",
-          "PROFILE",
-          "NAME"
+          "NAME",
+          "PICTURE"
         ],
         "socialProviders": [],
         "usernameAttributes": [

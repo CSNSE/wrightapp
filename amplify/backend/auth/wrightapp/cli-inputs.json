@@ -3,7 +3,7 @@
   "cognitoConfig": {
     "identityPoolName": "testAuthIdentityPool",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "wright80931de9",
+    "resourceNameTruncated": "wright8665e754",
     "userPoolName": "wrightapp",
     "autoVerifiedAttributes": [
       "email"
@@ -22,18 +22,17 @@
     "requiredAttributes": [
       "email",
       "nickname",
-      "picture",
-      "profile",
-      "name"
+      "name",
+      "picture"
     ],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [],
     "userpoolClientReadAttributes": [],
-    "userpoolClientLambdaRole": "wright80931de9_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "wright8665e754_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "80931de9",
+    "sharedId": "8665e754",
     "resourceName": "wrightapp",
     "authSelections": "identityPoolAndUserPool",
     "serviceName": "Cognito",
