@@ -1,6 +1,12 @@
-type Note @model @auth(rules: [ { allow: public } ] ){
+type Note @model @auth(rules: [{allow: public}]) {
   id: ID!
   name: String!
   description: String
   image: String
+  imagepost: String
+  time: String
+  author: String
+  content: String
+  title: String
 }
+ 

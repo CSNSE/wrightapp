@@ -1,5 +1,6 @@
 {
   "AppSyncApiName": "wrightapp",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2024-03-14T15:53:52.325Z"
 }
