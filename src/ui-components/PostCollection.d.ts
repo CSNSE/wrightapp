@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { AmpligramProps } from "./Ampligram";
+import { PostProps } from "./Post";
 import { CollectionProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -20,14 +20,14 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type PostCollectionOverridesProps = {
     PostCollection?: PrimitiveOverrideProps<CollectionProps>;
-    Ampligram?: AmpligramProps;
+    Post?: PostProps;
 } & EscapeHatchProps;
 export declare type PostCollectionProps = React.PropsWithChildren<Partial<CollectionProps<any>> & {
     items?: any[];
     overrideItems?: (collectionItem: {
         item: any;
         index: number;
-    }) => AmpligramProps;
+    }) => PostProps;
 } & {
     overrides?: PostCollectionOverridesProps | undefined | null;
 }>;

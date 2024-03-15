@@ -8,7 +8,7 @@
 import * as React from "react";
 import { Note } from "../models";
 import { getOverrideProps, useDataStoreBinding } from "./utils";
-import Ampligram from "./Ampligram";
+import Post from "./Post";
 import { Collection } from "@aws-amplify/ui-react";
 export default function PostCollection(props) {
   const { items: itemsProp, overrideItems, overrides, ...rest } = props;
@@ -28,22 +28,19 @@ export default function PostCollection(props) {
     <Collection
       type="list"
       isSearchable={true}
-      isPaginated={true}
       searchPlaceholder="Search..."
-      itemsPerPage={4}
       direction="column"
-      alignItems="stretch"
       justifyContent="left"
       items={items || []}
       {...getOverrideProps(overrides, "PostCollection")}
       {...rest}
     >
       {(item, index) => (
-        <Ampligram
+        <Post
           note={item}
           key={item.id}
           {...(overrideItems && overrideItems({ item, index }))}
-        ></Ampligram>
+        ></Post>
       )}
     </Collection>
   );
